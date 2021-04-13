@@ -1,0 +1,25 @@
+{
+  "name": "solid-pod-lezen",
+  "version": "1.0.0",
+  "description": "Testen van inrupt libs",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@inrupt/solid-client": "1.6.1",
+    "@solid/query-ldflex": "2.11.3",
+    "axios": "0.21.1",
+    "parcel-bundler": "^1.6.1",
+    "rdf-namespaces": "1.9.2",
+    "rdflib": "2.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
+}
